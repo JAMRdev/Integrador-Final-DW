@@ -26,6 +26,23 @@
   box-sizing: border-box;
 }
 
+/* scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--principalColorVariation1); 
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: var(--principalColor); 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--blue); 
+}
+
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 5rem;
