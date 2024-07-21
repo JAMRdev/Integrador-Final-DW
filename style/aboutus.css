@@ -1,0 +1,38 @@
+.about-us {
+    margin-top: 1rem;
+    padding: 3rem;
+    background-color: var(--white);
+    border-radius: 10px;
+}
+
+.about-us_hero {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 3rem;
+}
+
+.about-us_Title {
+    padding: 1rem;
+    background-color: var(--greyPrincipal);
+    border-radius: 10px;
+}
+
+.about-us h3 {
+    color: whitesmoke;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.about-us h3 span {
+    color: var(--white);
+    font-weight: 800;
+}
+
+.about-us p {
+    margin-top: 1rem;
+}
+
+.about-us img {
+    width: 20%;
+}

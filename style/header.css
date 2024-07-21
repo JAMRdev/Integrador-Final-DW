@@ -1,0 +1,109 @@
+.encabezado {
+  position: sticky;
+  width: 100%;
+  top: 0;
+}
+
+.body-topBar {
+  padding: 0.9rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 30px;
+  background-color: var(--principalColor);
+  color: var(--backgroundColor);
+}
+
+.body-topBar_nav {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.body-topBar_slogan {
+  font-weight: 600;
+}
+
+.body-topBar_nav a {
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--black);
+}
+
+.body-topBar_nav a:hover {
+  color: var(--blue);
+}
+
+.body-topBar_account {
+  display: flex;
+  gap: 2rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--black);
+}
+
+.body-topBar_account a {
+  font-family: var(--bodyFont);
+  color: var(--backgroundColor);
+  text-decoration: none;
+}
+
+.body-topBar_account a:hover {
+  color: var(--blue);
+}
+
+header {
+  padding: 1rem 2rem 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--white);
+}
+
+.navBar {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.linkMainNav {
+  color: var(--white);
+  display: inline-block;
+  text-decoration: none;
+  background-color: var(--black);
+  padding: 0.5rem;
+  font-family: var(--titleFont);
+  font-weight: 600;
+  border-radius: 10px;
+}
+
+.linkMainNav {
+  text-decoration: none;
+}
+
+.linkMainNav:visited {
+  color: var(--white);
+}
+
+.linkMainNav:hover {
+  color: var(--principalColor);
+  animation: ease-in 600ms;
+}
+
+.logo {
+  font-family: var(--titleFont);
+  font-weight: 800;
+  font-size: 2.5rem;
+  text-decoration: none;
+  color: var(--greySecundary);
+  animation: ease-in 100ms;
+}
+
+.logo:hover {
+  color: var(--backgroundColor);
+  transform: scale(1.01);
+  transition: 0.3s ease-in;
+}
+
+
+/* MQ */
+
+/* END MQ */

@@ -1,0 +1,50 @@
+footer {
+    background-color: var(--backgroundColor);
+    margin-top: 1rem;
+    padding: 2rem ;  
+}
+
+.contenidoFooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logoFooter {
+    font-family: var(--titleFont);
+    font-weight: 800;
+    font-size: 2.5rem;
+    text-decoration: none;
+    color: var(--principalColor);
+    animation: ease-in 100ms;
+  }
+  
+  .logoFooter:hover {
+    color: var(--white);
+    transform: scale(1.01);
+    transition: 0.3s ease-in;
+  }
+
+.contenidoFooter p {
+    color: var(--white);
+}
+
+.contenidoFooter p:last-child {
+    margin-top: 3.5rem;
+    font-weight: 400;
+}
+
+.linkFooterNav {
+    font-size: 1.3rem;
+    text-align: center;
+    display: flex;
+    color: var(--white);
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+
+.linkFooterNav:hover{
+    color: var(--principalColor);
+    transform: scale(1.01);
+    transition: 0.3s ease-in;
+}

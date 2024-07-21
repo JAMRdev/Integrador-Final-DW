@@ -1,0 +1,20 @@
+.clients {
+    padding: 2rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--white);
+    border-radius: 10px;
+}
+
+.nuestrosClientes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 5rem;
+}
+
+.nuestrosClientes img{
+    width: 150px;
+}

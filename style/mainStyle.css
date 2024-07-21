@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --greyPrincipal: #262626;
+  --greySecundary: rgb(77, 77, 77);
+  --backgroundColor: #212121;
+  --principalColor: #dfff62;
+  --alternativeGreen: #135200;
+  --principalColorVariation1: #6e6e6e;
+  --principalColorVariation2: #a0a0a0;
+  --backgroundLight1: #e2e2e2;
+  --secundaryColor: rgb(255, 0, 115);
+  --white: #fff;
+  --black: #000;
+  --blue: #8252F9; /* no es blue pero está bueno */
+
+  --titleFont: "Poppins", sans-serif;
+  --bodyFont: "Inter", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: var(--bodyFont);
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.contenedor {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: var(--backgroundLight1);
+}
+
+main {
+  padding-top: 3rem;
+}

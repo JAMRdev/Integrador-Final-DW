@@ -1,0 +1,37 @@
+.heroMain {
+  padding-top: 0rem;
+  display: flex;
+  gap: 7rem;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero h1 {
+  font-size: 2.3rem;
+}
+
+.heroText {
+  width: 60%;
+}
+
+.heroText p {
+  padding: 1rem 0 2rem 0;
+}
+
+.btnHero {
+  color: var(--black);
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-decoration: none;
+  background-color: var(--principalColor);
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.hero img {
+  width: 27%;
+}
