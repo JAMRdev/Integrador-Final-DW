@@ -103,11 +103,9 @@ header {
   transition: 0.3s ease-in;
 }
 
-
 /* MQ */
 
 @media (max-width: 430px) {
-  
   .encabezado {
     position: relative;
   }
@@ -119,7 +117,7 @@ header {
     justify-content: center;
   }
 
-  .body-topBar div:first-child{
+  .body-topBar div:first-child {
     display: none;
   }
 
@@ -146,17 +144,14 @@ header {
   }
 }
 
-
 @media (max-width: 768px) {
-  
-
   .body-topBar {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .body-topBar div:first-child{
+  .body-topBar div:first-child {
     display: none;
   }
 
@@ -184,8 +179,6 @@ header {
 }
 
 @media (max-width: 1000px) {
-  
-
   .body-topBar {
     display: flex;
     flex-direction: row;
@@ -215,6 +208,5 @@ header {
     width: 100%;
   }
 }
-
 
 /* END MQ */

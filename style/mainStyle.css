@@ -13,7 +13,7 @@
   --secundaryColor: rgb(255, 0, 115);
   --white: #fff;
   --black: #000;
-  --blue: #8252F9; /* no es blue pero está bueno */
+  --blue: #8252f9; /* no es blue pero está bueno */
 
   --titleFont: "Poppins", sans-serif;
   --bodyFont: "Inter", sans-serif;
@@ -32,15 +32,15 @@
 }
 
 ::-webkit-scrollbar-track {
-  background: var(--principalColorVariation1); 
+  background: var(--principalColorVariation1);
 }
- 
+
 ::-webkit-scrollbar-thumb {
-  background: var(--principalColor); 
+  background: var(--principalColor);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--blue); 
+  background: var(--blue);
 }
 
 html {
@@ -61,10 +61,7 @@ main {
   padding-top: 3rem;
 }
 
-
-
 @media (max-width: 430px) {
-  
   main {
     padding-top: 1rem;
   }
@@ -73,10 +70,7 @@ main {
     scroll-behavior: smooth;
     scroll-padding-top: 0rem;
   }
-
 }
-
-
 
 .hora {
   display: flex;

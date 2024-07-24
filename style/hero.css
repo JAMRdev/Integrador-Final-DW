@@ -37,9 +37,7 @@
   width: 27%;
 }
 
-
 @media (max-width: 430px) {
-  
   .hero {
     margin-bottom: 2rem;
     display: flex;
@@ -56,9 +54,7 @@
   }
 }
 
-
 @media (max-width: 768px) {
-  
   .hero {
     margin-bottom: 2rem;
     display: flex;
