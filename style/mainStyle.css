@@ -45,7 +45,7 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 0rem;
+  scroll-padding-top: 5rem;
 }
 
 .contenedor {
@@ -69,7 +69,14 @@ main {
     padding-top: 1rem;
   }
 
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 0rem;
+  }
+
 }
+
+
 
 .hora {
   display: flex;
