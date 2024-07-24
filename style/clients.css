@@ -18,3 +18,12 @@
 .nuestrosClientes img{
     width: 150px;
 }
+
+@media (max-width: 430px) {
+  
+    .nuestrosClientes{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+  }

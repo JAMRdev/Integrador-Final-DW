@@ -1,84 +1,104 @@
 .plans {
-    margin-top: 1rem;
-    background-color: var(--white);
-    padding: 3rem;
-    border-radius: 10px;
+  margin-top: 1rem;
+  background-color: var(--white);
+  padding: 3rem;
+  border-radius: 10px;
 }
 
-
-/*.plansTitle {
-    font-size: 2rem;
-    text-align: center;
-}*/
-
 .plansTitle {
-    font-size: 1.5rem;
-    text-align: center;
-    color: var(--white);
-    padding: 1rem;
-    background-color: var(--greyPrincipal);
-    border-radius: 10px;
+  font-size: 1.5rem;
+  text-align: center;
+  color: var(--white);
+  padding: 1rem;
+  background-color: var(--greyPrincipal);
+  border-radius: 10px;
 }
 
 .cards {
-    margin-top: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 1.5rem;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
 }
 
 .card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 1rem;
-    background-color: var(--backgroundLight1);
-    border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+  background-color: var(--backgroundLight1);
+  border-radius: 10px;
 }
 
 .planTitle {
-    font-weight: 900;
-    margin-bottom: 1rem;
+  font-weight: 900;
+  margin-bottom: 1rem;
 }
 
 .price_buy {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .card img {
-    padding: 0.8rem;
-    max-height: 150px;
+  padding: 0.8rem;
+  max-height: 100px;
 }
 
 .buy {
-    max-width: 60px;
+  max-width: 60px;
 }
 
 .card p {
-    padding : 1rem;
+  padding: 1rem;
 }
 
 .precio {
-    padding: 1rem;
-    border-radius: 10px;
+  padding: 1rem;
+  border-radius: 10px;
 }
 
 .comprar {
-    text-decoration: none;
-    color: var(--white);
-    background-color: var(--blue);
-    padding: 1rem;
-    border-radius: 10px;
+  text-decoration: none;
+  color: var(--white);
+  background-color: var(--blue);
+  padding: 1rem;
+  border-radius: 10px;
 }
 
 .comprar:hover {
-    color: var(--white);
-    background-color: var(--greyPrincipal);
-    transform: scale(1.01);
-    transition: 0.1s ease-in;
+  color: var(--white);
+  background-color: var(--greyPrincipal);
+  transform: scale(1.01);
+  transition: 0.1s ease-in;
+}
+
+@media (max-width: 430px) {
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .card ul li {
+    list-style: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1000px) {
+  .card ul li {
+    list-style: none;
+  }
 }
