@@ -70,3 +70,8 @@ main {
   }
 
 }
+
+.hora {
+  display: flex;
+  flex-direction: row;
+}
